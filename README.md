@@ -65,12 +65,14 @@ To run this project on your local machine, follow these steps:
 3. The application will display whether the message is classified as "Spam" or "Not Spam."
 
 
-## 🤝 Contributing
-Contributions are welcome! If you have suggestions for improvements or additional features, feel free to open an issue or submit a pull request.
 
 ## 🎥 Demo
 
 ![image](https://github.com/user-attachments/assets/b8f16dd0-b5ab-45dc-b9b5-18383a67bc90)
+
+
+## 🤝 Contributing
+Contributions are welcome! If you have suggestions for improvements or additional features, feel free to open an issue or submit a pull request.
 
 
 <div align="right">
