@@ -51,13 +51,34 @@ To run this project on your local machine, follow these steps:
    nltk.download('stopwords')
    ```
 
-5. Run the Application Start the Streamlit app by executing:
+4. Train the model and generate artifacts:
+   - Run the Jupyter notebook `spam_detection.ipynb` to train the model and save `model.pkl` and `vectorizer.pkl`.
 
+5. Running the Notebook
+   - Open and run all cells in `spam_detection.ipynb` for EDA, model training, and evaluation:
+   ```bash
+   jupyter notebook spam_detection.ipynb
+   ```
+
+6. Running the CLI Prediction Script
+   - Classify a single SMS message from the command line:
+    ```bash
+   python predict.py "Your SMS message here"
+   ```
+   Example:
+   ```bash
+   python predict.py "Congratulations! You've won a free ticket. Reply now!"
+   # Output: spam
+   ```
+
+### (Addiitonal)
+
+ 8. Run the Application Start the Streamlit app by executing:
    ```bash
    streamlit run app.py
    ```
 
-6. Access the Application Open your web browser and go to 'http://localhost:8501' to access the spam classifier app.
+ 9. Access the Application Open your web browser and go to 'http://localhost:8501' to access the spam classifier app.
 
 
 
